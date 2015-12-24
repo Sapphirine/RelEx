@@ -6,6 +6,7 @@ The software does not include the Neo4j database, which has to be download separ
 
 ## Setup
 To setup and use the system, follow the steps below:
+
 1. Download and setup Neo4j graph database. Start the database service by "bin/neo4j start".
 2. Configure database credentials in the code directory.
 3. Extract and import knowledge base data by "python3 code/parser.py < data/yagoFacts.tsv".
@@ -13,4 +14,4 @@ To setup and use the system, follow the steps below:
 
 ## Usage
 
-Now the web application is served at http://localhost:8080 (The url and port can also be configured). A clean interface will be shown in the browser. Users can simply type two objects of interest into the form and then click ``Explain". Then the system will generate relationship results and display them in an organized manner. The user can also drag the nodes themselves to further adjust the layouts.
+Now the web application is served at http://localhost:8080 (The url and port can also be configured). A clean interface will be shown in the browser. Users can simply type two objects of interest into the form and then click "Explain". Then the system will generate relationship results and display them in an organized manner. The user can also drag the nodes themselves to further adjust the layouts.
